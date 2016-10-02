@@ -1,0 +1,25 @@
+{
+  "name": "book-trading-club",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://0.0.0.0:8082/",
+  "devDependencies": {
+    "react-native-dotenv": "0.0.2",
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "auth0-js": "^7.2.1",
+    "auth0-lock": "^10.4.0",
+    "jwt-decode": "^2.1.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.3",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

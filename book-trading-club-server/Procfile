@@ -1,0 +1,2 @@
+web: cd ../book-trading-club-client/client && npm start
+api: npm run server

@@ -1,0 +1,18 @@
+{
+  "name": "book-trading-club-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nf start -p 8081",
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "foreman": "^2.0.0",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.2"
+  }
+}
