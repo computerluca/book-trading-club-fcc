@@ -2,6 +2,7 @@ import React, { PropTypes as T } from 'react'
 import { Jumbotron } from 'react-bootstrap'
 import styles from './styles.module.css'
 import HeaderComponent from './HeaderComponent';
+import FooterComponent from './FooterComponent';
 export class Container extends React.Component {
   static contextTypes = {
     router: T.object
@@ -20,6 +21,7 @@ export class Container extends React.Component {
       <HeaderComponent auth={this.props.route.auth}/>
         
         {children}
+        <FooterComponent />
       </Jumbotron>
     )
   }

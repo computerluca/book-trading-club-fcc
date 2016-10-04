@@ -21,7 +21,7 @@ constructor(props, context) {
   handleSubmit(e){
     e.preventDefault()
     const { profile} = this.props.location.state;
-        const auth = new AuthService('your_client_id', 'your_domain');
+const auth = new AuthService('your_client_id', 'your_domain_id');
     console.log(this.props.route);
     auth.updateProfile(profile.user_id, {
       user_metadata: {
